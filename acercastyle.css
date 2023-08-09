@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500&family=Roboto:ital,wght@1,100&display=swap');
+
+
+header{
+    background-color: rgba(0, 255, 255, 0.308);
+   
+}
+
+header nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+.Logo{
+    padding: 10px;
+    }
+body{
+    background-image: url("imagenes/F2JwKMTWwAI3v-X.png") 
+}
+a{
+    color: blueviolet;
+    text-decoration: none;
+    margin-top: 10px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 23px;
+}
+.staff-sky{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    background-color: rgba(124, 104, 238, 0.322);
+    text-align: justify;
+    
+}
+.texto-staffsky{
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+    background-color: rgba(124, 104, 238, 0.322);
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    margin-top: 10px;
+    
+}
+.imagen-staffsky{
+    width: 400px;
+    margin: 10px;
+    border-radius: 60px 0px 60px 0px;
+}
+.thatgamecompany-logo-rectangle{
+    width: 400px;
+    margin: 10px;
+    border-radius: 0px 60px 0px 60px;
+}
+#pie{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    background-color: rgba(0, 0, 139, 0.295);
+    font-family: 'Quicksand', sans-serif;
+    font-size: 23px;
+    margin-top: 10px;
+}
